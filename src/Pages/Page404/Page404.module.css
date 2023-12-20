@@ -1,0 +1,140 @@
+.page404 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.page404_contentText {
+    padding: 15px;
+    width: 100%;
+}
+
+.page404_contentText p:nth-child(1) {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--link);
+    margin-bottom: 25px;
+}
+
+.page404_contentText p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+.page404_contentText p:nth-child(3) {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary);
+    margin-bottom: 5px;
+}
+
+.page404_contentText p:nth-child(4) {
+    color: var(--thirt);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.page404_imgError404 {
+    width: 100%;
+    height: 55vh;
+    color: var(--link);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Responsividade */
+@media (min-width: 0px) and (max-width: 576px) {
+    .page404 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .page404_imgError404 {
+    }
+    .page404_contentText p:nth-child(1) {
+        font-size: 1.5rem;
+    }
+    
+    .page404_contentText p:nth-child(2) {
+        font-size: 1rem;
+    }
+    
+    .page404_contentText p:nth-child(3) {
+        font-size: 0.99rem;
+    }
+    
+    .page404_contentText p:nth-child(4) {
+        font-size: 1rem;
+    }
+    
+    .page404_imgError404 img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.99px) {
+    .page404 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .page404_contentText p:nth-child(1) {
+        font-size: 1.5rem;
+    }
+    
+    .page404_contentText p:nth-child(2) {
+        font-size: 1.2rem;
+    }
+    
+    .page404_contentText p:nth-child(3) {
+        font-size: 1rem;
+    }
+    
+    .page404_contentText p:nth-child(4) {
+        font-size: 1.1rem;
+    }
+    
+    .page404_imgError404 img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768.99px) and (max-width: 1200px) {
+    .page404 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .page404_contentText p:nth-child(1) {
+        font-size: 1.5rem;
+    }
+    
+    .page404_contentText p:nth-child(2) {
+        font-size: 1.2rem;
+    }
+    
+    .page404_contentText p:nth-child(3) {
+        font-size: 1rem;
+    }
+    
+    .page404_contentText p:nth-child(4) {
+        font-size: 1.1rem;
+    }
+    
+    .page404_imgError404 img{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+
+}
+
+@media (min-width: 1400px) and (max-width: 4000px)  {
+
+}

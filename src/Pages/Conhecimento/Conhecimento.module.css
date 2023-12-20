@@ -1,0 +1,173 @@
+.conhecimento {
+    width: 90%;
+    height: 80vh;
+    background-color: var(--primaryTwo);
+    margin: 0 auto;
+}
+
+
+.title {
+    width: 100%;
+    margin-block: 10px;
+}
+
+.title h1 {
+    font-size: 2rem;
+    color: var(--primary);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    width: 50%;
+}
+
+
+.col:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col:nth-child(1) p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 40%;
+    border: 1px solid var(--grey);
+    font-size: 1.5rem;
+    padding: 15px;
+    font-weight: normal;
+    color: var(--secondary);
+    border-radius: 8px;
+}
+
+.col:nth-child(2) {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.col:nth-child(2) div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col:nth-child(2) div img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid var(--grey);
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+
+    transition: border 1s;
+}
+
+.col:nth-child(2) div img:hover {
+    border: 1px solid var(--secondary);
+
+}
+
+
+/* resposividade */
+@media (min-width: 0px) and (max-width: 576px) {
+    .conhecimento {
+        width: 100%;
+        height: 50vh;
+    }
+    .col:nth-child(1) {
+        display: none;
+    }
+    .col:nth-child(2) {
+        width: 100%;
+    }
+    .col:nth-child(2) div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .col:nth-child(2) div img {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768.99px) {
+    .conhecimento {
+        width: 100%;
+        height: 50vh;
+    }
+    .col:nth-child(1) {
+        display: none;
+    }
+    .col:nth-child(2) {
+        width: 100%;
+    }
+    .col:nth-child(2) div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .col:nth-child(2) div img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 768.99px) and (max-width: 1200px) {
+    .conhecimento {
+        width: 90%;
+        height: 50vh;
+    }
+    .col:nth-child(1) {
+        display: none;
+    }
+    .col:nth-child(2) {
+        width: 100%;
+    }
+    .col:nth-child(2) div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .col:nth-child(2) div img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+}
+
+@media (min-width: 1400px) and (max-width: 4000px) {
+
+}

@@ -1,0 +1,44 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #121312;
+  --primaryTwo: #222322;
+  --secondary: #2DF125;
+  --thirt: #fefefe;
+  --link: #585a58;
+  --grey: rgb(128, 128, 128);
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+/* Para navegadores WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 6px;
+}
+
+::-moz-scrollbar{
+  width: 12px;
+  background-color: var(--primary);
+}
+::-moz-scrollbar-thumb{
+  background-color: var(--secondary);
+  border-radius: 6px;
+}

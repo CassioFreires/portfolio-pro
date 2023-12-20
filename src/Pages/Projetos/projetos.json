@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Web finans",
+        "description": "Site de finanças desenvolvido.",
+        "html_url": "https://cassiofreires.github.io/Web-finans/",
+        "background": "#ffc107",
+        "text": "HTML é uma linguagem de marcação utilizada na construção de páginas na Web"
+    },
+    {
+        "id": 2,
+        "name": "Clone spotify",
+        "description": "Clone do spotify.",
+        "html_url": "https://cassiofreires.github.io/Spotify-Clone/",
+        "background": "#942cc0",
+        "text": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags."
+    },
+    {
+        "id": 3,
+        "name": "Galeria",
+        "description": "Site de galeria de fotos.",
+        "html_url": "https://cassiofreires.github.io/Projeto_galeria/",
+        "background": "#ababab"
+        
+    },
+    {
+        "id": 4,
+        "name": "Mini portfolio",
+        "description": "Nele temos uma breve apresentação, dizendo um pouco sobre quem sou e dos meus conhecimentos em algumas linguagens como o foco no front-end.",
+        "html_url": "https://cassiofreires.github.io/mini_portfolio/",
+        "background":"#381ba9"
+    },
+    {
+        "id": 5,
+        "name": "Organo react",
+        "description": "Projeto de gerenciamento de equipe, desenvolvido com base do curso da Alura.",
+        "html_url": "https://organo-react-kappa.vercel.app/",
+        "background": "#6278f7"
+    },
+    {
+        "id": 6,
+        "name": "Palavra Secreta",
+        "description": "Jogo de palavras secretas.",
+        "html_url": "https://secret-word-c6s9iikun-cassiofreires.vercel.app/",
+        "background":"#071b87"
+    },
+    {
+        "id": 7,
+        "name": "SouFlix",
+        "description": "Sistema simulando um streaming de video com fins didáticos.",
+        "html_url": "https://sou-flix.vercel.app/",
+        "background":"#9a2d38"
+    },
+    {
+        "id": 8,
+        "name": "Desenvolvendo",
+        "description": "Sistema esta em construção.",
+        "html_url": "/"
+    },
+    {
+        "id": 9,
+        "name": "Desenvolvendo",
+        "description": "Sistema esta em construção.",
+        "html_url": "/"
+    }
+]
