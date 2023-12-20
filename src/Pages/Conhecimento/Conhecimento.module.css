@@ -44,9 +44,9 @@
     width: 90%;
     height: 40%;
     border: 1px solid var(--grey);
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 15px;
-    font-weight: normal;
+    font-weight: 300;
     color: var(--secondary);
     border-radius: 8px;
 }
