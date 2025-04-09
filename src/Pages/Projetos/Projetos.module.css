@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding-inline: 15px;
     background-color: var(--primary);
+    margin-bottom: 30px;
 }
 .content {
     display: flex;

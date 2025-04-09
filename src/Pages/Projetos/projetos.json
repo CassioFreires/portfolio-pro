@@ -53,14 +53,17 @@
     },
     {
         "id": 8,
-        "name": "Desenvolvendo",
-        "description": "Sistema esta em construção.",
-        "html_url": "/"
+        "name": "Sistema de hamburgueria",
+        "description": "App de Hamburgueria para explorar e comprar hambúrgueres online. Permite ao usuário visualizar os hambúrgueres disponíveis, adicionar itens ao carrinho e revisar o pedido antes de finalizar. Tecnologias utilizar: Nodejs para API + Reactjs para o Front + Mysql para o banco. Utilizando as boas práticas de progração e segurança",
+        "html_url": "/#",
+         "background": "#8B008B"
+
     },
     {
         "id": 9,
-        "name": "Desenvolvendo",
-        "description": "Sistema esta em construção.",
-        "html_url": "/"
+        "name": "Sistema de Gerenciamento de linceças",
+        "description": "Sistema para gerenciamento de licenças, permite o usuário cadastrar Áreas, Departamentos, Sistemas, Atribuir licenças, Notificar o usuário quando a licença do software for expirar, extrair relatórios em CSV, JSON, EXCEL, XML entre outras funcionalidades. Tecnologias utilizar: Nodejs para API + Reactjs para o Front + Mysql para o banco. Utilizando as boas práticas de progração e segurança",
+        "html_url": "/#",
+        "background": "#00BFFF"
     }
 ]

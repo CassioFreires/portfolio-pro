@@ -1,6 +1,5 @@
 .sobre {
     width: 70%;
-    height: 130vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -28,7 +27,7 @@
 .row {
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 
 }
@@ -37,8 +36,96 @@
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+}
+.title {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.contactInfo a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contactInfo a:hover {
+    text-decoration: underline;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    color: #444;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+.skillsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skillsList li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills li {
+    background-color: #f0f0f0;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+.experience{
+    padding: 20px;
+}
+
+.experience h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.experienceItem {
+    margin-bottom: 25px;
+}
+
+.jobTitle {
+    color: #007bff;
+    font-size: 1.4em;
+}
+
+.jobDate {
+    font-style: italic;
+    color: #555;
+}
+
+.jobDescription {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.link {
+    color: #007bff;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 .col:nth-child(1) {
     display: flex;
@@ -64,18 +151,6 @@
     font-size: 1.125rem;
     /*22px*/
     color: var(--secondary);
-}
-.avatar_box {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.avatar {
-    width: 100%;
-    border-radius: 5px;
-
 }
 
 .icons {
