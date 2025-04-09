@@ -1,13 +1,11 @@
 .sobre {
-    width: 70%;
-    height: 90vh;
+    width: 100%;
+    height: 120vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     background-color: var(--primaryTwo);
-    padding-bottom: 50px;
-
 }
 
 .sobre .title {
@@ -23,6 +21,7 @@
     color: var(--primary);
     text-transform: uppercase;
     text-decoration: underline;
+    margin-top: 100px;
 }
 
 .row {
