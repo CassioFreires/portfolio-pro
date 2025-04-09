@@ -14,7 +14,7 @@ export default function Sobre() {
             </div>
             <div className={styles.row}>
                 <div className={styles.col}>
-                    <div>
+                    <div className={styles.avatar_box}>
                         <img className={styles.avatar}  src={avatar} alt="Foto do avatar sobre" />
                     </div>
                     <div className={styles.icons}>
