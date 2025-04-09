@@ -67,7 +67,9 @@
     margin-top: 30px;
     font-size: 1.3em;
 }
-
+.skills {
+    padding: 20px;
+}
 .skillsList {
     list-style-type: none;
     padding: 0;
