@@ -220,6 +220,8 @@
     }
 }
 
+
+
 @media (min-width: 1200px) and (max-width: 1400px) {
     .sobre {
         width: 90%;
@@ -266,6 +268,17 @@
 @media (min-width: 1400px) and (max-width: 4000px) {
     .sobre {
         width: 90%;
+    }
+    .col {
+        height: 80%;
+    }
+}
+
+
+@media (min-width: 1336px) and (max-width: 768px)  {
+    .sobre {
+        width: 90%;
+        height: 120vh;
     }
     .col {
         height: 80%;
